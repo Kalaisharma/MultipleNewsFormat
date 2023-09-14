@@ -1,0 +1,67 @@
+.container{
+    background-color:chartreuse;
+    height: 500px;
+    width: 500px;
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   margin-left: 35%;
+   font-size: larger;
+   border: 5px solid burlywood;
+   
+}
+h1{
+    text-align: center;
+}
+table p{
+    background-color: #e4f1ff;
+}
+.inline{
+    background-color: #d8b9c3;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+.absolute1{
+    position: relative;
+    left: 10px;
+}
+.absolute1 div{
+    background-color: #ffbed8;
+}
+
+.one {
+  width: 25%;
+  position: absolute;
+}
+
+.two {
+  position: absolute;
+  left: 27.25%;
+  width: 25%;
+}
+
+.three {
+  position: absolute;
+  left: 53%;
+  width: 40%;
+}
+.float p{
+    margin: 10px;
+    height: 30%;
+    width: 30%;
+     background-color: #c1f4c5;
+     float: left;
+}
+.flex p{
+background-color: #00b7c2;
+height: 30%;
+width: 30%;
+}
+.flex{
+    display: flex;
+gap: 10px;
+}
+
+
